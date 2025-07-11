@@ -32,14 +32,15 @@ int main()
 	int numOfGB;	// 골드바흐 파티션 개수
 	vector <int> answer(T);
 	
-	// 먼저 해당 숫자가 소수인지 미리 확인해놓기
+	// 먼저 해당 숫자가 소수인지 미리 확인해놓기 (시간 단축 목적)
 	vector <int> isPrimeNum(1000000);
 	for (int i = 0; i < isPrimeNum.size(); i++)
 	{
 		isPrimeNum[i] = checkPrimeNumber(i);
 	}
 
-
+    //위에서 미리 확인해놓은 변수 checkPrimeNumber를 이용해서 소수인지 아닌지 빠르게 확인 가능
+    // 다른 생각 추가: if문 대신에 곱셈을 이용해서 그냥 바로 더하기 시켜도 되겠다.
 	for (int i = 0; i < T; i++)
 	{
 		cin >> N;
