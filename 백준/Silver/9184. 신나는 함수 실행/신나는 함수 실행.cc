@@ -49,6 +49,11 @@ int w(int a, int b, int c)
 }
 int main()
 {
+	// 계산 속도 더 빠르게
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
+
+
 	int a, b, c;
 	while (true)
 	{
