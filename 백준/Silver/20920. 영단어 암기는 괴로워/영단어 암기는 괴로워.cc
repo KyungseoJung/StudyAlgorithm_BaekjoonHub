@@ -36,11 +36,13 @@ int main()
 	}
 
 	// * 이해 목적: m이 어떻게 정렬되어 들어갔는지 검토 (for (auto& member: m) 사용해야 함!!) ------------- 
-	//cout << "m.size() = " << m.size() << "\n";
-	//for (auto& member : m)
-	//{
-	//	cout << member.first << " " << member.second << "\n";
-	//}
+	// cout << "m.size() = " << m.size() << "\n";
+	// for (auto& member : m)
+	// {
+	// 	cout << member.first << " " << member.second << "\n";
+	// }
+	// 출력해보니: append, apple, sand 순으로 저장되어있음. 입력한 단어(Key)의 알파벳을 기준으로 오름차순 정렬. (단어의 길이는 상관 X. 알파벳 순으로 우선적인 것이 앞으로) 
+
 	/* 아래는 잘못된 코드: map은 []인덱스 접근을 허용하지 않음. []로 접근하면, 그냥 [괄호] 안에 있는 Key에 접근한다는 뜻 => map[1] : 1이라는 Key에 접근한다 */
 	/* 따라서, 아래처럼 auto& 형식을 이용해서 접근해야 함*/
 	//for (int i = 0; i < m.size(); i++)
