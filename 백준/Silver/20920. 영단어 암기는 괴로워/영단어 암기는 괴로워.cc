@@ -69,15 +69,15 @@ int main()
 	});
 
 	// 최종 출력 ------------------
-	for (auto& member : v)
-	{
-		cout << member.first << "\n";
-	}
-	// 메모리 크기를 다루거나 인덱스를 다루기 때문에 size_t 사용. (unsigned type이고, 다루는 숫자의 범위가 더 넓다는 장점이 있음)
-	//for (size_t i = 0; i < v.size(); i++)
+	//for (auto& member : v)
 	//{
-	//	cout << v[i].first << "\n";
+	//	cout << member.first << "\n";
 	//}
+	// 메모리 크기를 다루거나 인덱스를 다루기 때문에 size_t 사용. (unsigned type이고, 다루는 숫자의 범위가 더 넓다는 장점이 있음)
+	for (size_t i = 0; i < v.size(); i++)
+	{
+		cout << v[i].first << "\n";
+	}
 
 	return 0;
 }
