@@ -7,6 +7,7 @@ using namespace std;
 // ** 핵심 아이디어: 새로운 숫자를 입력할 때마다, 이미 있는 숫자인지 확인하면 계산 복잡도(O(N^2))가 너무 높음
 // ㄴ따라서, (1) 모든 숫자를 입력하고, (2) 각 숫자를 정렬한 다음, (3) i번째 수와 i-1번째 수가 같은지 확인하면서 개수를 카운팅 하면 됨.
 
+// ** for문에서 N-1번째의 경우도 고려해줘야 함.
 int main()
 {
 	cin.tie(nullptr);
@@ -39,41 +40,13 @@ int main()
 	for (int i = 0; i < input.size(); i++)
 	{
 		//cout << i << "번째 수: " << input[i] << "\n";
-		if (N == 1)	// 특수한 경우를 제외해주기
-		{
-			cout << input[0];
-			return 0;
-		}
+
 		if (i == 0)
 		{
 			nowCount = 1;
 		}
 		else
 		{
-			if (i == N - 1)
-			{
-				if (input[i] == input[i - 1])
-				{
-					// N-1번째 숫자와 같은 숫자라면 개수만 1개 증가시켜서 저장
-					nowCount++;
-					numMembers.push_back(input[i - 1]);
-					countMembers.push_back(nowCount);
-
-				}
-				else
-				{
-					// N-1번째 숫자와 다른 숫자라면, N-1번째 숫자(횟수: nowCount)를 저장하고, N번째 숫자(횟수:1)도 저장
-					numMembers.push_back(input[i - 1]);
-					countMembers.push_back(nowCount);
-
-					numMembers.push_back(input[i]);
-					countMembers.push_back(1);
-				}
-
-				break;	// 바로 종료. 밑의 코드 실행하면 X
-			}
-
-
 			if (input[i] == input[i - 1])
 			{
 				nowCount++;
@@ -89,6 +62,10 @@ int main()
 			}
 		}
 	}
+	// (위 for문에서는 다른 숫자가 나오는지만 검사해서, 마지막 원소 -1까지만 push 해주고 있음)
+	// 따라서, i가 N-1일 때에도 고려해주기
+	numMembers.push_back(input[N - 1]);
+	countMembers.push_back(nowCount);
 
 	//for (int i = 0; i < numMembers.size(); i++)
 	//{
