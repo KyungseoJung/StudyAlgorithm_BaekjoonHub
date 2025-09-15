@@ -6,6 +6,10 @@
 using namespace std;
 int main()
 {
+	// 작동 속도 더 빠르게 하기 위한 코드
+	cin.tie(nullptr);
+	ios_base::sync_with_stdio(false);
+
 	int N;
 	cin >> N;
 	vector <int> nums(N);
