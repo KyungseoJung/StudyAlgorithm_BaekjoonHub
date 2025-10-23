@@ -11,13 +11,11 @@ using namespace std;
 
 int main()
 {
-	cin.tie(nullptr);
-	ios_base::sync_with_stdio(false);
 
 	int num = 10;	// 총 10개의 역
 	int off, on;	// 내린 사람, 탄 사람 숫자 입력
 	int presentNum = 0;	// 현재 기차에 탄 사람 숫자 카운팅
-	int max = 0;
+	int max = 0;    // 기차에 가장 사람이 많을 때를 기록
 
 	for (int i = 0; i < num; i++)
 	{
