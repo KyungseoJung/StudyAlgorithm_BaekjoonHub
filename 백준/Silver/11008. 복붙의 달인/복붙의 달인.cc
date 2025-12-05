@@ -8,8 +8,7 @@
 #include <sstream>	// stringstream 사용하기 위함
 #include <set> // set 사용하기 위함
 using namespace std;
-// 11008번 문제: 복붙의 달인
-// ** 간단하게 문자열.find() 이용한 방식
+// 2669번 문제: 직사각형 네개의 합집합의 면적 구하기
 
 int main()
 {
@@ -34,7 +33,7 @@ int main()
 			pos = s.find(p, pos);	// pos위치부터 p 찾기;
 			if (pos == string::npos)
 			{
-				break;	// 만약 p단어가 아예 없다면 break;
+				break;	// 만약 p단어가 아예 없다면(pos == npose) break;
 			}
 			else // 단어가 있다면, 카운팅+1 하고, pos의 위치를 p의 길이만큼 이동시키기
 			{
