@@ -15,9 +15,6 @@ int main()
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);
 
-	int N;
-	N = 4;
-
 	string input;
 	getline(cin, input);
 
