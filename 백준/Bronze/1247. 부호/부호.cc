@@ -22,7 +22,7 @@ int main()
 	int N;
 
 	long long int input;
-	__int128_t sum;
+	__int128_t sum;    // 백준 환경에서 제공하는 자료형이래.
 	while (Num--)
 	{
 		sum = 0;
@@ -30,7 +30,9 @@ int main()
 		for (int i = 0; i < N; i++)
 		{
 			cin >> input;
-			sum += input;
+            // #### 더할 때 형변환 처리
+            sum += (__int128_t)input;
+			// sum += input;
 		}
 
 		if (sum > 0)
