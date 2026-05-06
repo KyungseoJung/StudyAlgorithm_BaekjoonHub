@@ -15,7 +15,7 @@ int solution(string my_string) {
         if(isdigit(my_string[i]))
         {
             num += (my_string[i] - '0') * ele;
-            ele *= 10;  // +10으로 헷갈렸었음.. *10을 해줘야 함.
+            ele *= 10;  // (십의 자리, 백의 자리, ... 늘어나듯이) +10으로 헷갈렸었음.. *10을 해줘야 함.
         }
         else if(my_string[i] == '+')   // 연산 기호 나왔다면
         {
