@@ -24,7 +24,7 @@ vector<int> solution(int n) {
     int ele = 0;
     for(int i=0; i<nums.size(); i++)
     {
-        if(nums[i] != ele)
+        if(nums[i] != ele)  // 이전 숫자와 다른 숫자일 때에만 answer에 넣기
         {
             answer.push_back(nums[i]);
             ele = nums[i];
