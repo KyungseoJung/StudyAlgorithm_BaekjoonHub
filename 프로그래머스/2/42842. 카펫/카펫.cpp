@@ -5,6 +5,25 @@ using namespace std;
 
 vector<int> solution(int brown, int yellow) {
     vector<int> answer;
+    
+    // *** 핵심 단서 ****
+//         카펫 구조:
+//     ┌─────────────┐
+//     │ 갈 갈 갈 갈  │
+//     │ 갈 노 노 갈  │
+//     │ 갈 갈 갈 갈  │
+//     └─────────────┘
+
+//     전체 가로 = w, 세로 = h
+//     노란색 = (w-2) × (h-2)
+//     갈색 = 2w + 2h - 4
+
+//     따라서:
+//     ✓ brown = 2(w + h - 2)
+//     ✓ sum = brown/2 + 2 = w + h
+//     ✓ area = w × h
+    
+    
     // brown과 yellow의 합은 넓이
     // (brown / 2 + 2)은 가로 + 세로 길이 합
     
