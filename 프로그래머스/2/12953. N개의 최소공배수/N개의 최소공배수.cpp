@@ -5,6 +5,12 @@
 
 using namespace std;
 
+// *** 사실 정석은 ***
+// 핵심 공식: LCM(a, b) = (a × b) / GCD(a, b)
+// n개 수의 최소공배수: LCM(a, b, c, ...) = LCM(LCM(a, b), c), ...
+
+// 그리고 GCD를 유클리드 호제법으로 구하는 게 정석
+
 int solution(vector<int> arr) {
     int answer = 0;
     // n개의 수여도, 아마 n개 수들의 최소공배수 x 최대공약수 = n개 수들의 곱셈 
