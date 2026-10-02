@@ -3,6 +3,12 @@
 
 #include <algorithm>    // sort 함수 사용하기 위함
 #include <sstream>      // stringstream 사용하기 위함
+// ****** stoi()의 추가 기능 ******
+// stoi("-5")      // -5
+// stoi("+10")     // 10
+// stoi("  -20")   // -20 (앞 공백 무시)
+// stoi("100abc")  // 100 (뒤의 문자 무시, 숫자만 변환)
+// stoi("0xFF")    // 오류! (16진수는 처리 안함)
 
 #include <iostream>
 using namespace std;
