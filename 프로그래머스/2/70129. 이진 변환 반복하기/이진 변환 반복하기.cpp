@@ -34,8 +34,11 @@ vector<int> solution(string s) {
         s = "";
         while(true)
         {
+            // 2로 나누었을 때의 나머지를 하나하나 추가해주면 됨
+            // (나눈 몫이 0이 될 때까지)
             remainder = num1 % 2;
             num1 = num1/2;
+            
             char ch = remainder + '0';
             s = ch + s;
             
@@ -44,7 +47,7 @@ vector<int> solution(string s) {
                 break;  // while문 탈출
             }
         }
-        changeNum++;
+        changeNum++;    // 이진 변환 횟수 누적
     }
     
     answer.push_back(changeNum);
