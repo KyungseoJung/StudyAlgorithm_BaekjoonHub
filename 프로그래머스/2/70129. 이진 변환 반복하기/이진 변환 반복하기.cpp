@@ -27,9 +27,9 @@ vector<int> solution(string s) {
             }
         }
         num1 = s.length() - num0;
-        removeNum += num0;
+        removeNum += num0;  // 지운 0의 개수 누적하기
         
-        // num1을 2진법으로 표현하기 -> s 업데이트
+        // num1을 2진법으로 표현해서 -> s 업데이트
             // 2진법 표현 방법
         s = "";
         while(true)
