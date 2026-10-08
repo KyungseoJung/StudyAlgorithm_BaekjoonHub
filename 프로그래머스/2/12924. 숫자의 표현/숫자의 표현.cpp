@@ -48,8 +48,9 @@ int solution(int n) {
     // 이제 최종적으로, 최대 몇 개의 숫자로 표현할 수 있는지 & 그때의 +정수값을 알고 있음
     // i번째: 만약 (n-mulVector[i]) % countVector[i] == 0이라면 그것은 나타낼 수 있는 것
     
-    cout << countVector.size()<< "\n";
+    cout << countVector.size()<< "\n";  // countVector와 mulVector의 크기가 같은지 확인하기 위한 cout문
     cout << mulVector.size()<< "\n";
+    
     for(int i=0; i<countVector.size(); i++)
     {
         if((n - mulVector[i]) % countVector[i] == 0)
