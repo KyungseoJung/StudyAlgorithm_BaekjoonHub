@@ -17,8 +17,8 @@ bool solution(string s) {
     for(int i=0; i<s.length(); i++)
     {
         cout << s[i] - '0' << "\n";
-        // if((s[i]-'0' < 0) || (s[i] - '0' > 9))
-        if(! isdigit(s[i]))
+        if((s[i]-'0' < 0) || (s[i] - '0' > 9))   // 둘다 가능
+        // if(! isdigit(s[i]))
         {
             answer = false;
             return answer;
