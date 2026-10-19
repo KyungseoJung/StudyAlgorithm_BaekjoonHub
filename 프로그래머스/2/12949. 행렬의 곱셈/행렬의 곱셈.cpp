@@ -21,7 +21,7 @@ vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2)
         for(int j=0; j<answer[0].size(); j++)
         {
             sum = 0;
-            for(int ele = 0; ele < b; ele++)
+            for(int ele = 0; ele < b; ele++)    // arr1의 i행과 arr2의 j열의 값들을 짝 지어서 곱해주기 
             {
                 sum += (arr1[i][ele] * arr2[ele][j]);
             }
