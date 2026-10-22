@@ -39,7 +39,12 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
     previousMax = dates[0];
     count = 1;
     
-    // 만약 
+    // 만약 하루만 작업했다면
+    if(progresses.size() == 1)
+    {
+        answer.push_back(1);
+    }
+    
     for(int i=1; i<dates.size(); i++)   // 두 번째 날부터 확인하기
     {
         if(dates[i] <= previousMax)
