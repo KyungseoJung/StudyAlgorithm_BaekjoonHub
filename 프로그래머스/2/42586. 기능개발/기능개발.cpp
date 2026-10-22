@@ -30,7 +30,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
     }
     
     // 2) 며칠 후 완성되는지 저장한 vector를 기반으로 계산하기
-    // 앞에 큰 숫자가 있다면 그보다 작은 숫자들까지 한꺼번에 작업 완료됨. 이후 큰 숫자부터 다시 기다림 이후, 그보다 작은 숫자들까지 한꺼번에 작업 완료
+    // 앞에 큰 숫자가 있다면 그보다 작거나 같은 숫자들까지 한꺼번에 작업 완료됨. 이후 큰 숫자부터 다시 기다림 이후, 그 *이하* 숫자들까지 한꺼번에 작업 완료
     bool start = true;
     int previousMax = 0;
     int count = 0;
