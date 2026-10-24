@@ -25,8 +25,9 @@ int solution(vector<int> citations) {
     // 2) h번 이상 인용된 논문의 개수 찾기
     // 정렬한다면, [0, 1, 3, 5, 6]
     // citations[ele] 번 이상 인용된 논문의 개수: citations.size() - ele
-    // x번 이상 인용된 논문의 개수: citations 중 x 이상이면서 가장 작은 값을 찾고 index를 알아내서, citations.size() - 그index
-        // ex) 4번 인용된 논문의 개수: 5 - 3(5의 index 번호) = 2
+        // x번 이상 인용된 논문의 개수: citations 중 x 이상이면서 가장 작은 값을 찾고 index를 알아내서, citations.size() - 그index
+        // ex) 4번 이상 인용된 논문의 개수: 5 - 3(5의 index 번호) = 2
+        // ex) 5번 이상 인용된 논문의 개수: 5 - 3(5의 index 번호) = 2
     
     
     int minEle = -1;
@@ -34,7 +35,7 @@ int solution(vector<int> citations) {
     // 3) 위 규칙들을 이용해서 h번 이상 인용된 논문이 h편 이상일 때를 찾기 (최댓값으로)
     for(int i = start; i>0; i--)
     {
-        // citations 중 i 이상이면서 가장 작은 값 찾기
+        // (1) citations 중 i 이상이면서 가장 작은 값 찾기 (일부러 빨리 찾기 위해 역순으로 찾음)
         for(int ele = citations.size()-1; ele >=0 ; ele--)
         {
             if(citations[ele] < i)
@@ -44,8 +45,8 @@ int solution(vector<int> citations) {
             }
         }
         
-        // i번 이상 인용된 논문의 개수 -> h 찾기.
-        if(minEle == -1)    // 모두 i번 이상 인용된 논문만 있을 때에는 -1로 나옴
+        // (2) i번 이상 인용된 논문의 개수 -> num 찾기
+        if(minEle == -1)    // 위 (1)에서 모두 i번 이상 인용된 논문만 있을 때에는 -1로 나옴
         {
             num = citations.size();
         }
@@ -54,8 +55,8 @@ int solution(vector<int> citations) {
             num = citations.size() - minEle;
         }
         
-        // i번 이상 인용된 논문의 개수가 i편 이상이면 됨
-        // 즉, num이 i이상이면 찾기 완료! for문에서 나오기
+        // (3) 'i번 이상 인용된 논문의 개수'가 i편 이상일 때를 찾기
+        // 즉, 'num'이 i이상이면 찾기 완료! for문에서 나오기
         if(num >= i)
         {
             answer = i;
