@@ -5,6 +5,9 @@
 
 using namespace std;
 
+// *** 이전에 말했던 단어 또 말할 수 없다는 조건
+// *** 글자 수가 모자라서 same = true로 남았을 경우 확인
+
 int solution(vector<string> babbling) {
     int answer = 0;
     vector <string> available = {"aya", "ye", "woo", "ma"};
