@@ -22,7 +22,9 @@ int solution(vector<string> babbling) {
             // 이전에 확인했던 단어를 다시 확인하는 경우라면, beforeSaidEle를 유지
         }
         
-        continuing = false;
+        continuing = false; // 일단 여기서는 false로 바꿔주기. 만약 다시 확인해야 되면, 가장 마지막 if문 (남은 글자수가 0이 아닐 때), true로 바뀔 것임.
+        // 여기서 false로 안바꿔주면, continuing은 계속 true로 유지될 테니까
+        
         // 각 단어마다 확인하기
 
         for(int ele = 0; ele < available.size(); ele++)
