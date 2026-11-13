@@ -34,7 +34,7 @@ int solution(vector<int> priorities, int location) {
     int priorityNum;
     while(true)
     {
-        priorityNum = ranks[0];
+        priorityNum = ranks[0]; // 첫 번째 원소 = 내가 가진 숫자 중, 가장 우선순위 숫자
         if(pq.front() == priorityNum)
         {
             answer++;
