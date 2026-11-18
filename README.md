@@ -12,8 +12,17 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
