@@ -21,8 +21,17 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0020-valid-parentheses](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->
