@@ -13,6 +13,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0001-two-sum](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -34,4 +35,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 <!---LeetCode Topics End-->
