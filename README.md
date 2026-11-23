@@ -15,6 +15,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0014-longest-common-prefix](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0027-remove-element/) | Easy |
+| [0035-search-insert-position](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -59,4 +60,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0035-search-insert-position](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 <!---LeetCode Topics End-->
