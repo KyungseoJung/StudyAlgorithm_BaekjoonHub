@@ -20,6 +20,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0290-word-pattern](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -27,6 +28,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0020-valid-parentheses](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0058-length-of-last-word](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0058-length-of-last-word/) | Easy |
+| [0290-word-pattern](https://github.com/KyungseoJung/StudyAlgorithm_BaekjoonHub/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
